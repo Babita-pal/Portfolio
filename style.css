@@ -1,0 +1,80 @@
+
+
+body{
+    background-color: plum;
+}
+.kom{
+    width: 14rem;
+    height: 6rem;
+    margin-top: 6rem;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: darkgray;
+}
+.divide{
+    width: 26rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.inform{
+    margin-left: 8%;
+    margin-top: 8%;
+    width: 49rem;
+    /* border: 2px solid red; */
+}
+.inform h1{
+    padding-right: 10rem;
+
+}
+.inform p{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inform a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 9rem;
+    background: #212121;
+    padding: 10px 18px;
+}
+
+.pkl{
+    width: 16rem;
+    height: 26rem;
+}
+.om{
+    /* border: 2px solid red; */
+    width: 16rem;
+    height: 26rem;
+    margin-left: 70%;
+}
+.box{
+    width: 24rem;
+    margin-left: 16 rem;
+    display: inline;
+
+}
